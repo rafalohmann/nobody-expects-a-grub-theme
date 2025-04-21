@@ -1,0 +1,39 @@
+# Nobody Expects a GRUB theme
+# MIT License — see LICENSE file in repository root
+# This theme is inspired by Monty Python's Spanish Inquisition sketch.
+# I do NOT hold rights to Monty Python, the Spanish Inquisition, or any related content.
+# This is a fan-made work. Use at your own risk.
+
+title-text: ""
+title-font: "DejaVuSansMono.pf2"
+desktop-image: "background.png"
+desktop-color: "#0e0e0e"
+
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ label {
+    id = "__timeout__"
+    text = "NOBODY expects the system to boot in %d seconds!"
+    top = 10%
+    left = 0
+    width = 100%
+    align = "center"
+    font = "DejaVuSansMono.pf2"
+    color = "#be8841"
+}
+
++ boot_menu {
+    left = 50%
+    top = 20%
+    width = 60%
+    height = 60%
+    item_font = "DejaVuSansMono.pf2"
+    item_color = "#be8841"
+    selected_item_color = "#be3c2c"
+    item_height = 20
+    item_padding = 2
+}
